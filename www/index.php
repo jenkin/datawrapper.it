@@ -7,7 +7,7 @@
 
 
 
-define('DATAWRAPPER_VERSION', '1.2.7');  // must be the same as in package.json
+define('DATAWRAPPER_VERSION', '1.3.0');  // must be the same as in package.json
 
 define('ROOT_PATH', '../');
 
@@ -96,6 +96,9 @@ function add_header_vars(&$page, $active = null) {
         ), array(
             'url' => '#lang-es-ES',
             'title' => 'Español'
+        ), array(
+            'url' => '#lang-it-IT',
+            'title' => 'Italiano'
         )),
         'title' => _('Language'),
         'icon' => 'font'

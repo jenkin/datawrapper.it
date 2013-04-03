@@ -147,7 +147,7 @@ $app->get('/admin/translations', function() use ($app) {
         $missing = array();
         $messages = array();
         function msg($vis, $key, $o, $fallback = false) {
-            $languages = array('de', 'fr', 'en', 'es');
+            $languages = array('de', 'fr', 'en', 'es', 'it');
             $msg = array('vis' => $vis, 'key' => $key);
             foreach ($languages as $lang) {
                 if (isset($o[$lang])) $msg[$lang] = $o[$lang];
