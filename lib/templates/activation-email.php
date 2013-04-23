@@ -6,13 +6,13 @@
 
 $activation_mail = <<<MAIL
 
-Hello $name,
+Ciao $name,
 
-Thank you for signing up at Datawrapper on $domain!
+grazie per esserti registrato/a su Datawrapper ($domain)!
 
-Please click on this link to activate your email address.
+Ora basta un click sul link seguente per attivare il tuo nuovo account.
 
 $activationLink
 
-Cheers!
+A presto!
 MAIL;
