@@ -96,13 +96,15 @@ $messages = array(
         'de' => 'Dein Diagramm (:id) wurde exportiert',
         'en' => 'Your chart (:id) has been exported',
         'fr' => 'Your chart (:id) has been exported',
-        'es' => 'Your chart (:id) has been exported'
+        'es' => 'Your chart (:id) has been exported',
+        'es' => 'Il tuo grafico (:id) è stato esportato'
     ),
     'body' => array(
         'de' => "Hallo,\n\nhiermit senden wir die statische Grafik zu deinem Diagramm.\n\nMit freundlichen Grüßen,\nDas Datawrapper Team\n",
         'en' => "Hello,\n\nHereby we send you the static version of your chart.\n\nRegards,\nThe Datawrapper Team\n",
         'fr' => "Hello,\n\nHereby we send you the static version of your chart.\n\nRegards,\nThe Datawrapper Team\n",
-        'es' => "Hello,\n\nHereby we send you the static version of your chart.\n\nRegards,\nThe Datawrapper Team\n"
+        'es' => "Hello,\n\nHereby we send you the static version of your chart.\n\nRegards,\nThe Datawrapper Team\n",
+        'es' => "Ciao,\n\necco la versione statica del tuo grafico.\n\nA presto,\nThe Datawrapper Team\n"
     )
 );
 
