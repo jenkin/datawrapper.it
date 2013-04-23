@@ -2,7 +2,8 @@
     "title": {
         "en": "Bar Chart",
         "de": "Balken (horizontal)",
-        "fr": "Diagramme à bandes horizontales"
+        "fr": "Diagramme à bandes horizontales",
+        "it": "Grafico a barre orizzontali"
     },
     "version": "1.2.9",
     "extends": "raphael-chart",
@@ -12,9 +13,10 @@
         "sort-values": {
             "type": "checkbox",
             "label": {
-                "en": "Autmatically sort bars",
+                "en": "Automatically sort bars",
                 "de": "Balken sortieren",
-                "fr": "Trier les barres"
+                "fr": "Trier les barres",
+                "it": "Ordina le barre"
             }
         },
         "reverse-order": {
@@ -22,7 +24,8 @@
             "label": {
                 "en": "Reverse order",
                 "de": "Umgekehrte Reihenfolge",
-                "fr": "inverser l&#39;ordre"
+                "fr": "inverser l&#39;ordre",
+                "it": "Inverti l&#39;ordinamento"
             }
         },
         "labels-inside-bars": {
@@ -30,7 +33,8 @@
             "label": {
                 "en": "Display labels inside bars",
                 "de": "Zahlen innerhalb der Balken",
-                "fr": "Afficher les étiquettes dans les barres"
+                "fr": "Afficher les étiquettes dans les barres",
+                "it": "Mostra le etichette nelle barre"
             }
         },
         "negative-color": {
@@ -38,7 +42,8 @@
             "label": {
                 "en": "Use different color for negative values",
                 "de": "Andere Farbe für negative Werte ",
-                "fr": "Couleur différentes pour les valeurs négatives"
+                "fr": "Couleur différentes pour les valeurs négatives",
+                "it": "Colora diversamente i valori negativi"
             }
         }
     },

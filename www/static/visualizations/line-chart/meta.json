@@ -2,9 +2,10 @@
     "title": {
         "en": "Line Chart",
         "de": "Liniendiagramm",
-        "fr": "Graphique linéaire"
+        "fr": "Graphique linéaire",
+	"it": "Grafico a linee"
     },
-    "version": "1.2.9",
+    "version": "1.2.5-2",
     "extends": "raphael-chart",
     "dimensions": 2,
     "order": 40,
@@ -14,7 +15,8 @@
             "label": {
                 "en": "Direct labeling",
                 "de": "Linien direkt beschriften",
-                "fr": "Nommer les lignes"
+                "fr": "Nommer les lignes",
+		"it": "Etichette sulle linee"
             },
             "default": false,
             "depends-on": {
@@ -26,28 +28,32 @@
             "label": {
                 "en": "Legend position",
                 "de": "Position der Legende",
-                "fr": "Nommer les lignes"
+                "fr": "Nommer les lignes",
+		"it": "Posizione della legenda"
             },
             "options": [{
                 "value": "right",
                 "label": {
                     "en": "right",
                     "de": "rechts",
-                    "fr": "à droite"
+                    "fr": "à droite",
+		    "it": "a destra"
                 }
             },{
                 "value": "top",
                 "label": {
                     "en": "top",
                     "de": "oben",
-                    "fr": "en haut"
+                    "fr": "en haut",
+ 		    "it": "in alto"
                 }
             },{
                 "value": "inside",
                 "label": {
                     "en": "inside",
                     "de": "innen",
-                    "fr": "dedans"
+                    "fr": "dedans",
+		    "it": "all&#39;interno"
                 }
             }],
             "default": "right",
@@ -61,7 +67,8 @@
             "label": {
                 "en": "Fill between lines",
                 "de": "Flächen ausfüllen",
-                "fr": "Fill between lines"
+                "fr": "Fill between lines",
+		"it": "Riempi lo spazio tra le linee"
             },
             "default": false,
             "depends-on": {
@@ -74,7 +81,8 @@
             "label": {
                 "en": "Smooth lines",
                 "de": "Linien glätten",
-                "fr": "Lisser les lignes"
+                "fr": "Lisser les lignes",
+		"it": "Smussa le linee"
             },
             "default": false,
             "expert": false
@@ -84,7 +92,8 @@
             "label": {
                 "en": "Rotate labels 45°",
                 "de": "Beschriftungen um 45° drehen",
-                "fr": "Pivoter les étiquettes de 45°"
+                "fr": "Pivoter les étiquettes de 45°",
+		"it": "Ruota le etichette di 45°"
             },
             "default": false
         },
@@ -93,7 +102,8 @@
             "label": {
                 "en": "Force a baseline at zero",
                 "de": "Erweitere die Achse bis zur Null",
-                "fr": "Échelle à zero"
+                "fr": "Échelle à zero",
+		"it": "Imposta la linea di base a zero"
             }
         },
 
@@ -102,7 +112,8 @@
             "label": {
                 "en": "Connect lines between missing values",
                 "de": "Linien zwischen fehlenden Werten verbinden",
-                "fr": "Joindre les lignes pour les valeurs manquantes"
+                "fr": "Joindre les lignes pour les valeurs manquantes",
+		"it": "Connetti le linee tra valori mancanti"
             },
             "depends-on": {
                 "chart.missing_values": true
@@ -113,7 +124,8 @@
             "label": {
                 "en": "Extend y-range to nice axis ticks",
                 "de": "Erweiterte y-Achse",
-                "fr": "Échelle à zero"
+                "fr": "Échelle à zero",
+		"it": "Arrotonda gli estremi dell&#39;asse delle y"
             }
         },
         "force-banking": {
@@ -122,7 +134,8 @@
             "label": {
                 "en": "Bank the lines to 45°",
                 "de": "Anstiege auf 45° ausrichten",
-                "fr": "Limiter à 45° les lignes"
+                "fr": "Limiter à 45° les lignes",
+		"it": "Inclina le linee a 45°"
             }
         },
         "show-grid": {
@@ -131,7 +144,8 @@
             "label": {
                 "en": "Show grid",
                 "de": "Show grid",
-                "fr": "Afficher la grille"
+                "fr": "Afficher la grille",
+		"it": "Mostra la griglia"
             },
             "default": false
         }

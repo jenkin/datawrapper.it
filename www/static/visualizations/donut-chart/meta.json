@@ -2,7 +2,8 @@
     "title": {
         "en": "Donut Chart",
         "de": "Donut-Diagramm",
-        "fr": "Graphique en anneau"
+        "fr": "Graphique en anneau",
+	"it": "Grafico a ciambella"
     },
     "version": "1.2.9",
     "extends": "pie-chart",
@@ -14,7 +15,8 @@
             "label": {
                 "en": "Show total value in center",
                 "de": "Zeige Summe in der Mitte",
-                "fr": "Afficher la somme au centre"
+                "fr": "Afficher la somme au centre",
+		"it": "Mostra il valore totale al centro"
             },
             "default": true
         },
@@ -23,7 +25,8 @@
             "label": {
                 "en": "Use custom total value instead of sum",
                 "de": "Eigenen Wert anstelle der Summe verwenden",
-                "fr": "Afficher une autre valeur au centre"
+                "fr": "Afficher une autre valeur au centre",
+		"it": "Usa un totale personalizzato invece della somma"
             },
             "default": false,
             "depends-on": {
@@ -36,7 +39,8 @@
             "label": {
                 "en": "Custom total value",
                 "de": "Eigener Wert",
-                "fr": "Valeur personnalisée"
+                "fr": "Valeur personnalisée",
+		"it": "Valore totale personalizzato"
             },
             "depends-on": {
                 "show-total": true,

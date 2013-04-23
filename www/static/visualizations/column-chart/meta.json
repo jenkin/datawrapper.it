@@ -2,7 +2,8 @@
     "title": {
         "en": "Column Chart",
         "de": "Balken (vertikal)",
-        "fr": "Diagramme à bandes verticales"
+        "fr": "Diagramme à bandes verticales",
+        "it": "Grafico a barre verticali"
     },
     "version": "1.2.9",
     "dimensions": 1,
@@ -12,9 +13,10 @@
         "sort-values": {
             "type": "checkbox",
             "label": {
-                "en": "Autmatically sort bars",
+                "en": "Automatically sort bars",
                 "de": "Balken sortieren",
-                "fr": "Trier les barres"
+                "fr": "Trier les barres",
+		"it": "Ordina le barre"
             }
         },
         "reverse-order": {
@@ -22,7 +24,8 @@
             "label": {
                 "en": "Reverse order",
                 "de": "Umgekehrte Reihenfolge",
-                "fr": "inverser l&#39;ordre"
+                "fr": "inverser l&#39;ordre",
+		"it": "Inverti l&#39;ordinamento"
             }
         },
         "negative-color": {
@@ -30,7 +33,8 @@
             "label": {
                 "en": "Use different color for negative values",
                 "de": "Andere Farbe für negative Werte ",
-                "fr": "Couleur différentes pour les valeurs négatives"
+                "fr": "Couleur différentes pour les valeurs négatives",
+		"it": "Colora diversamente i valori negativi"
             }
         }
     },

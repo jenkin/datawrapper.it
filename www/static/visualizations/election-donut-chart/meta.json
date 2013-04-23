@@ -2,7 +2,8 @@
     "title": {
         "en": "Election Donut",
         "de": "Sitzverteilung",
-        "fr": "Graphique en anneau"
+        "fr": "Graphique en anneau",
+	"it": "Ciambella elettorale"
     },
     "version": "1.2.9",
     "extends": "donut-chart",
@@ -17,7 +18,8 @@
             "label": {
                 "en": "Sort by size",
                 "de": "Nach Größte sortieren",
-                "fr": "Trier les barres"
+                "fr": "Trier les barres",
+		"it": "Ordina per dimensione"
             },
             "default": true
         }

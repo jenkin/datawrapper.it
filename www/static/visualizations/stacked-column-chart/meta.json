@@ -2,7 +2,8 @@
     "title": {
         "en": "Stacked Column Chart",
         "de": "Balken (vertikal, gestapelt)",
-        "fr": "Diagramme à bandes verticales"
+        "fr": "Diagramme à bandes verticales",
+	"it": "Grafico a barre sovrapposte"
     },
     "version": "1.2.9",
     "dimensions": 2,
@@ -13,9 +14,10 @@
         "sort-values": {
             "type": "checkbox",
             "label": {
-                "en": "Autmatically sort bars",
+                "en": "Automatically sort bars",
                 "de": "Balken sortieren",
-                "fr": "Trier les barres"
+                "fr": "Trier les barres",
+		"it": "Ordina le barre"
             }
         },
         "reverse-order": {
@@ -23,7 +25,8 @@
             "label": {
                 "en": "Reverse order",
                 "de": "Umgekehrte Reihenfolge",
-                "fr": "inverser l&#39;ordre"
+                "fr": "inverser l&#39;ordre",
+		"it": "Inverti l&#39;ordinamento"
             }
         },
         "normalize": {
@@ -31,7 +34,8 @@
             "label": {
                 "en": "Stack percentages",
                 "de": "Prozentwerte stapeln",
-                "fr": "Normalize to 100%"
+                "fr": "Normalize to 100%",
+		"it": "Usa valori percentuali"
             },
             "default": false
         },
@@ -40,7 +44,8 @@
             "label": {
                 "en": "Let user switch mode",
                 "de": "Nutzer kann umschalten",
-                "fr": "Let user switch mode"
+                "fr": "Let user switch mode",
+		"it": "Permetti all&#39;utente di scegliere"
             },
             "depends-on": {
                 "normalize": true
@@ -48,7 +53,7 @@
         }
     },
     "locale": {
-        "stack percentages": { "de": "Prozente darstellen" }
+        "stack percentages": { "de": "Prozente darstellen", "it": "Barre normalizzate" }
     },
     "libraries": []
 }

@@ -2,7 +2,8 @@
     "_title": {
         "en": "Data Table",
         "de": "Tabelle",
-        "fr": "Table de données"
+        "fr": "Table de données",
+	"it": "Tabella dei dati"
     },
     "version": "0.8",
     "author": {
@@ -24,7 +25,8 @@
             "label": {
                 "en": "Make columns sortable",
                 "de": "Spalten sortierbar",
-                "fr": "Colonnes triables"
+                "fr": "Colonnes triables",
+		"it": "Rendi ordinabili le colonne"
             }
         },
         "table-responsive": {
@@ -32,7 +34,8 @@
             "label": {
                 "en": "Use responsive layout",
                 "de": "Responsives Layout",
-                "fr": "Disposition réactive"
+                "fr": "Disposition réactive",
+		"it": "Usa un layout adattativo (responsive)"
             }
         },
         "table-paginate": {
@@ -40,7 +43,8 @@
             "label": {
                 "en": "Display content over multiple pages",
                 "de": "Daten auf mehrere Seiten verteilen",
-                "fr": "Étendre sur les côtés"
+                "fr": "Étendre sur les côtés",
+		"it": "Mostra il contenuto su più pagine"
             }
         },
         "table-filter": {
@@ -48,7 +52,8 @@
             "label": {
                 "en": "Show filter",
                 "de": "Suchfilter anzeigen",
-                "fr": "Filtres de recherche"
+                "fr": "Filtres de recherche",
+		"it": "Mostra il filtro"
             }
         }
     },
