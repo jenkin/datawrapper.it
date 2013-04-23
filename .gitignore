@@ -18,3 +18,4 @@ archive.tar
 *.png
 
 www/static/visualizations/treemap
+archive_tag.sh
