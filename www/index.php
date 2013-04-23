@@ -85,6 +85,9 @@ function add_header_vars(&$page, $active = null) {
         'url' => '',
         'id' => 'lang',
         'dropdown' => array(array(
+            'url' => '#lang-it-IT',
+            'title' => 'Italiano'
+        ), array(
             'url' => '#lang-de-DE',
             'title' => 'Deutsch'
         ), array(
