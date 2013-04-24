@@ -810,7 +810,7 @@ msgstr "password"
 
 #: ../scripts/tmpl_cache/login.twig.php:61
 msgid "Remember login?"
-msgstr "Non ricordi le credenziali di accesso?"
+msgstr "Memorizzo la password?"
 
 #: ../scripts/tmpl_cache/login.twig.php:66
 msgid "Send new password"
