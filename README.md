@@ -1,3 +1,7 @@
+_Original README file from forked project_
+
+It was a first attempt to install and localize in Italian *Datawrapper.de*. Now this old installation is abandoned.
+
 # Datawrapper
 
 Datawrapper is a tool that enables anyone to create enticing visualizations in seconds, without any programming skills.
